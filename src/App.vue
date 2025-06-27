@@ -2,13 +2,13 @@
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
-<template >
+<template>
   <div class="template">
     <header>
       <h1>Ресторан "Берег моря"</h1>
     </header>
     <main class="main">
-        <HelloWorld />
+      <HelloWorld />
     </main>
     <footer>
       <a href="tel:+78005553535">8 (800) 555-35-35</a>
@@ -19,7 +19,6 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style scoped>
-
 .template {
   display: flex;
   flex-direction: column;
@@ -27,14 +26,12 @@ import HelloWorld from './components/HelloWorld.vue'
 
 .main {
   flex-grow: 1;
-  /* height: 100vh; */
+  height: 100vh;
 }
 
-header, footer {
+header,
+footer {
   margin: 0;
   padding: 0;
 }
-
-
-
 </style>

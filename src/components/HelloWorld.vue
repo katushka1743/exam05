@@ -126,11 +126,12 @@ function checkingForm() {
 
 input {
   width: 25rem;
-  height: 1.5rem;
+  height: 2rem;
+  border: 1px solid salmon;
 }
 
 button {
-  margin: 1rem;
+  margin-top: 2rem;
 }
 
 .error {
